@@ -17,7 +17,6 @@ const Card = ({ data }) => {
   );
 };
 
-// Define las validaciones para las props
 Card.propTypes = {
   data: PropTypes.shape({
     nombre: PropTypes.string.isRequired,   
