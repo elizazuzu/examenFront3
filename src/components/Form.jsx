@@ -32,7 +32,7 @@ const Form = ({ handleSubmit, personaje, handleInputChange }) => {
   );
 };
 
-// Validación de props
+
 Form.propTypes = {
   handleSubmit: PropTypes.func.isRequired, 
   personaje: PropTypes.shape({
